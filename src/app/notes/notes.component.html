@@ -1,0 +1,13 @@
+<div>
+    <div class="">
+        <create-note></create-note>
+    </div>
+    <div class="p-2">
+        <h2 class="text-lg">{{sampleNote.title}}</h2>
+        <p class="text-md">{{sampleNote.content}}</p>
+        
+        <button class="p-1 bg-slate-500 text-white rounded-lg" (click)="markAsRead()">{{sampleNote.read}}</button>
+        <input type="text" class="p-2 border border-gray-600" (input)="takeExtraNote($event)"><br>
+        <h6>{{sampleNote.extraNote}}</h6>
+    </div>
+</div>

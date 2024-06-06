@@ -1,0 +1,11 @@
+<div class="w-full p-10">
+    <h3 class="text-xl">Create Note</h3>
+    <input 
+    type="text"
+    class="w-full p-4 bg-gray-100 rounded-t-2xl" 
+    placeholder="enter note text.." 
+    [value]="newNoteText"
+    [(ngModel)]="newNoteText" />
+
+    <p class="p-2 sm:p-10 md:p-12 text-center text-2xl font-semibold text-gray-600 shadow-lg rounded-b-3xl">{{newNoteText}}</p>
+</div>
