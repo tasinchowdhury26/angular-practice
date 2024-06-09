@@ -1,0 +1,7 @@
+<div class="border border-dotted p-5 mb-3">
+    <p class="font-bold text-gray-600">{{note.id}}</p>
+    <h3 class="font-semibold text-xl">{{note.title}}</h3>
+<p>{{note.content}}</p>
+<p>{{note.createdAt}}</p>
+<p [ngClass]="{'border border-orange-500': !note.read,'border border-green-500': note.read}">read</p>
+</div>

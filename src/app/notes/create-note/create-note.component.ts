@@ -7,8 +7,4 @@ import { Component } from '@angular/core';
 })
 export class CreateNoteComponent {
   newNoteText: String = '';
-
-  // updateNewNoteText(event: any){
-  //   this.newNoteText = event.target.value;
-  // }
 }

@@ -1,0 +1,8 @@
+<div class="flex items-center justify-center gap-4 p-2 rounded-lg border border-gray-700">
+    <div class="overflow-x-scroll flex items-center gap-2">
+        <div class="flex gap-1" *ngFor="let tag of uniqueTags">
+            <p (click)="chooseTag($event)">{{tag}}</p>
+        </div>
+    </div>
+    <app-search></app-search>
+</div>
